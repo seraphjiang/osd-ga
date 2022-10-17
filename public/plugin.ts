@@ -1,5 +1,6 @@
 import { CoreSetup, CoreStart, Plugin } from '../../../src/core/public';
 import { OsdGaPluginSetup, OsdGaPluginStart } from './types';
+import './hacks.js'
 
 export class OsdGaPlugin implements Plugin<OsdGaPluginSetup, OsdGaPluginStart> {
   public setup(core: CoreSetup): OsdGaPluginSetup {
