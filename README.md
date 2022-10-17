@@ -20,3 +20,16 @@ setting up your development environment.
       <dd>Execute this to create a distributable version of this plugin that can be installed in OpenSearch Dashboards
       </dd>
     </dl>
+
+
+## CSP settings 
+
+add following config to opensearch_dashboards.yml file
+
+```
+csp.rules:
+  - "script-src 'unsafe-eval' 'unsafe-inline' 'self' https://www.google-analytics.com https://ssl.google-analytics.com"
+  - "img-src 'unsafe-eval' 'unsafe-inline' 'self' data: https://www.google-analytics.com"
+  - "connect-src 'unsafe-eval' 'unsafe-inline' 'self' https://www.google-analytics.com"
+
+```
