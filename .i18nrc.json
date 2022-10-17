@@ -1,0 +1,7 @@
+{
+  "prefix": "osdGa",
+  "paths": {
+    "osdGa": "."
+  },
+  "translations": ["translations/ja-JP.json"]
+}
