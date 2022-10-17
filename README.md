@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# osd-ga
-OpenSearch Dashboards Google Analytic Plugin
-=======
-# osdGA
+# OpenSearch Dashboards Google Analytics Plugin
 
 A OpenSearch Dashboards plugin
 
@@ -24,4 +20,3 @@ setting up your development environment.
       <dd>Execute this to create a distributable version of this plugin that can be installed in OpenSearch Dashboards
       </dd>
     </dl>
->>>>>>> 7b8523c (generate plugin)
